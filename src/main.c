@@ -58,21 +58,26 @@ static word_t ampm_word;
 
 static const char *nums[] = {
 	"",
-	"één",
-	"twee",
-	"drie",
+	"eis",
+	"zwöi",
+	"drü",
 	"vier",
-	"vijf",
-	"zes",
-	"zeven",
+	"föif",
+	"sächs",
+	"sibä",
 	"acht",
-	"negen",
-	"tien",
+	"nün",
+	"zä",
 	"elf",
-	"twaalf",
-	"dertien",
-	"veertien",
-	"kwart",
+	"zwölf",
+	"drizäh",
+	"vierzä",
+	"füfzäh",
+        "sächzäh",
+        "siibäzäh",
+        "achtzäh",
+        "nünzäh",
+        "zwanzg",
 };
 
 static const char *
@@ -91,10 +96,10 @@ hour_string(
 {
 	// only if it is actually midnight, not "before midnight"
 	if (h == 0)
-		return "midder-\nnacht";
+		return "mittär-\nnacht";
 
 	if (h == 12)
-		return "middag";
+		return "mittag";
 
 	if (h < 12)
 		return nums[h];
@@ -114,45 +119,52 @@ nederlands_format(
 		min_word.text = "";
 		rel_word.text = "";
 	} else
-	if (min <= 15)
+        if (min == 15)
+	{
+		// just the kwart
+		min_word.text = "";
+		rel_word.text = "viertäl ab";
+		hour++;
+	} else
+	if (min <= 21)
 	{
 		// over the hour
 		min_word.text = min_string(min);
-		rel_word.text = "over";
+		rel_word.text = "ab";
 	} else
 	if (min < 30)
 	{
 		// over the kwart
 		min_word.text = min_string(30 - min);
-		rel_word.text = "voor half";
+		rel_word.text = "vor halbi";
 		hour++;
 	} else
 	if (min == 30)
 	{
 		// just the half
 		min_word.text = "";
-		rel_word.text = "half";
+		rel_word.text = "halbi";
 		hour++;
 	} else
-	if (min < 45)
+	if (min < 41)
 	{
 		// over the half
 		min_word.text = min_string(min - 30);
-		rel_word.text = "over half";
+		rel_word.text = "über halbi";
 		hour++;
 	} else
 	if (min == 45)
 	{
 		// just the kwart
 		min_word.text = "";
-		rel_word.text = "kwart voor";
+		rel_word.text = "viertäl vor";
 		hour++;
 	} else
 	if (min < 60)
 	{
 		// over the kwart
 		min_word.text = min_string(60 - min);
-		rel_word.text = "voor";
+		rel_word.text = "vor";
 		hour++;
 	}
 
@@ -166,16 +178,16 @@ nederlands_format(
 		ampm_word.text = "";
 	} else
 	if (hour < 6)
-		ampm_word.text = "'s nachts";
+		ampm_word.text = "z'nacht";
 	else
 	if (hour <= 12)
-		ampm_word.text = "'s morgens";
+		ampm_word.text = "am morgä";
 	else
 	if (hour <= 17)
-		ampm_word.text = "'s middags";
+		ampm_word.text = "am namitag";
 	else
 	if (hour <= 24)
-		ampm_word.text = "'s avonds";
+		ampm_word.text = "am abig";
 }
 
 
