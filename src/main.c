@@ -1,12 +1,12 @@
 /** \file
- * Word clock, with Dutch time.
+ * Word clock, with swiss german time.
  *
  * Four lines:
  *
  * minutes (or blank)
  * over/voor/half (or blank)
  * HOUR (in bold)
- * 's ochtends / 's middags 
+ * an morgä / am nami
  *
  * \todo: When any line changes, it is pushed to the side
  *
@@ -29,8 +29,8 @@
 #define UUID { 0x5D, 0xBE, 0xBB, 0x58, 0x3C, 0xF4, 0x4C, 0xAF, 0xB4, 0xAC, 0x02, 0x44, 0xA2, 0x64, 0x40, 0x37 },
 PBL_APP_INFO(
 	UUID,
-	"Hoe laat is het?",
-	"hudson",
+	"wiä schpaat isch es?",
+	"hudson, züritüütsch",
 	3, 0, // Version
 	INVALID_RESOURCE, // RESOURCE_ID_IMAGE_MENU_ICON,
 	APP_INFO_WATCH_FACE
@@ -64,20 +64,20 @@ static const char *nums[] = {
 	"vier",
 	"föif",
 	"sächs",
-	"sibä",
+	"siibe",
 	"acht",
-	"nün",
+	"nüün",
 	"zä",
-	"elf",
+	"ölf",
 	"zwölf",
 	"drizäh",
 	"vierzä",
 	"füfzäh",
-        "sächzäh",
-        "siibäzäh",
+        "sächszäh",
+        "siibezäh",
         "achtzäh",
-        "nünzäh",
-        "zwanzg",
+        "nüünzäh",
+        "zwänzg",
 };
 
 static const char *
