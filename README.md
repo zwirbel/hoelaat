@@ -1,4 +1,4 @@
-hoelaat
+wiä spaat isch es
 =======
 
-"Hoe Laat is Het" watch
+"wiä schpaat isch es" watch
