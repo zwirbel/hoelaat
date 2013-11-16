@@ -6,7 +6,7 @@
  * minutes (or blank)
  * over/voor/half (or blank)
  * HOUR (in bold)
- * an morgä / am nami
+ * an morgä /  am nami
  *
  * \todo: When any line changes, it is pushed to the side
  *
