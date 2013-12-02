@@ -168,35 +168,31 @@ nederlands_format(
 		hour++;
 	}
 
-	hour_word.text = hour_string(hour);
+	hour_word.text = hour_string(min);
 
 	// at midnight and noon do not display an am/pm notation
 	// but don't say "before midnight"
-	if (hour == 0 || hour == 12)
-	{
-		// nothing to do
-		ampm_word.text = "";
-	} else
-
-	if (min ==1)
+	//if (hour == 0 || hour == 12)
+	// {ampm_word.text = "";	} else
+	if (min == 1)
 		ampm_word.text == "12900 User";
 	else
-	if (min ==2)
+	if (min == 2)
 		ampm_word.text == "3020 IT emp";
 	else
-	if (min ==3)
+	if (min == 3)
 		ampm_word.text == "60 WAN connc";
 	else
-	if (min ==4)
+	if (min == 4)
 		ampm_word.text == "14220 WPs";
 	else
-	if (min ==5)
+	if (min == 5)
 		ampm_word.text == "1230 P-Serv";
 	else
-	if (min ==6)
+	if (min == 6)
 		ampm_word.text == "1925 V-Server";
 	else
-	if (min ==7)
+	if (min == 7)
 		ampm_word.text == "32% data growth";
 	else
 	if (min ==8)
