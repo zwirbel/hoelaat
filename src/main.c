@@ -486,6 +486,7 @@ handle_deinit(
 
 	fonts_unload_custom_font(font_thin);
 	fonts_unload_custom_font(font_thick);
+	fonts_unload_custom_font(font_thin_s);
 }
 
 
