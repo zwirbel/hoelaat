@@ -177,17 +177,188 @@ nederlands_format(
 		// nothing to do
 		ampm_word.text = "";
 	} else
-	if (hour < 6)
-		ampm_word.text = "z'nacht";
+
+	if (min ==1)
+		ampm_word.text == "12900 User";
 	else
-	if (hour <= 12)
-		ampm_word.text = "am morgä";
+	if (min ==2)
+		ampm_word.text == "3020 IT emp";
 	else
-	if (hour <= 17)
-		ampm_word.text = "am namitag";
+	if (min ==3)
+		ampm_word.text == "60 WAN connc";
 	else
-	if (hour <= 24)
-		ampm_word.text = "am abig";
+	if (min ==4)
+		ampm_word.text == "14220 WPs";
+	else
+	if (min ==5)
+		ampm_word.text == "1230 P-Serv";
+	else
+	if (min ==6)
+		ampm_word.text == "1925 V-Server";
+	else
+	if (min ==7)
+		ampm_word.text == "32% data growth";
+	else
+	if (min ==8)
+		ampm_word.text == "3200 TB";
+	else
+	if (min ==9)
+		ampm_word.text == "6015 Mobildev";
+	else
+	if (min ==10)
+		ampm_word.text == "88.75 Kbps/User";
+	else
+	if (min ==11)
+		ampm_word.text == "3370 Appl";
+	else
+	if (min ==12)
+		ampm_word.text == "959 Biz app";
+	else
+	if (min ==13)
+		ampm_word.text == "1254 enUsing";
+	else
+	if (min ==14)
+		ampm_word.text == "257 InfraApp";
+	else
+	if (min ==15)
+		ampm_word.text == "900 LN app";
+	else
+	if (min == 16)
+		ampm_word.text == "12900 User";
+	else
+	if (min == 17 )
+		ampm_word.text == "3020 IT emp";
+	else
+	if (min ==18)
+		ampm_word.text == "60 WAN connc";
+	else
+	if (min == 19)
+		ampm_word.text == "14220 WPs";
+	else
+	if (min ==20)
+		ampm_word.text == "1230 P-Serv";
+	else
+	if (min == 21)
+		ampm_word.text == "1925 V-Server";
+	else
+	if (min == 22)
+		ampm_word.text == "32% data growth";
+	else
+	if (min == 23)
+		ampm_word.text == "3200 TB";
+	else
+	if (min == 24)
+		ampm_word.text == "6015 Mobildev";
+	else
+	if (min == 25)
+		ampm_word.text == "88.75 Kbps/User";
+	else
+	if (min == 26)
+		ampm_word.text == "3370 Appl";
+	else
+	if (min == 27)
+		ampm_word.text == "959 Biz app";
+	else
+	if (min == 28)
+		ampm_word.text == "1254 enUsing";
+	else
+	if (min == 29)
+		ampm_word.text == "257 InfraApp";
+	else
+	if (min == 30)
+		ampm_word.text == "900 LN app";
+	else
+	if (min == 31)
+		ampm_word.text == "12900 User";
+	else
+	if (min == 32)
+		ampm_word.text == "3020 IT emp";
+	else
+	if (min == 33)
+		ampm_word.text == "60 WAN connc";
+	else
+	if (min == 34)
+		ampm_word.text == "14220 WPs";
+	else
+	if (min == 35)
+		ampm_word.text == "1230 P-Serv";
+	else
+	if (min == 36)
+		ampm_word.text == "1925 V-Server";
+	else
+	if (min == 37)
+		ampm_word.text == "32% data growth";
+	else
+	if (min == 38)
+		ampm_word.text == "3200 TB";
+	else
+	if (min == 39)
+		ampm_word.text == "6015 Mobildev";
+	else
+	if (min == 40)
+		ampm_word.text == "88.75 Kbps/User";
+	else
+	if (min == 41)
+		ampm_word.text == "3370 Appl";
+	else
+	if (min == 42)
+		ampm_word.text == "959 Biz app";
+	else
+	if (min == 43)
+		ampm_word.text == "1254 enUsing";
+	else
+	if (min == 44)
+		ampm_word.text == "257 InfraApp";
+	else
+	if (min == 45)
+		ampm_word.text == "900 LN app";
+	else
+	if (min == 46)
+		ampm_word.text == "12900 User";
+	else
+	if (min == 47)
+		ampm_word.text == "3020 IT emp";
+	else
+	if (min == 48)
+		ampm_word.text == "60 WAN connc";
+	else
+	if (min == 49)
+		ampm_word.text == "14220 WPs";
+	else
+	if (min ==50)
+		ampm_word.text == "1230 P-Serv";
+	else
+	if (min == 51)
+		ampm_word.text == "1925 V-Server";
+	else
+	if (min == 52)
+		ampm_word.text == "32% data growth";
+	else
+	if (min == 53)
+		ampm_word.text == "3200 TB";
+	else
+	if (min == 54)
+		ampm_word.text == "6015 Mobildev";
+	else
+	if (min == 55)
+		ampm_word.text == "88.75 Kbps/User";
+	else
+	if (min == 56)
+		ampm_word.text == "3370 Appl";
+	else
+	if (min == 57)
+		ampm_word.text == "959 Biz app";
+	else
+	if (min == 58)
+		ampm_word.text == "1254 enUsing";
+	else
+	if (min == 59)
+		ampm_word.text == "257 InfraApp";
+	else
+	if (min ==60)
+		ampm_word.text == "900 LN app";
+	
+
 }
 
 
