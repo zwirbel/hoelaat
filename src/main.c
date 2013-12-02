@@ -168,7 +168,7 @@ nederlands_format(
 		hour++;
 	}
 
-	hour_word.text = hour_string(min);
+	hour_word.text = hour_string(hour);
 
 	// at midnight and noon do not display an am/pm notation
 	// but don't say "before midnight"
