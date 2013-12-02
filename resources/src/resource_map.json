@@ -9,6 +9,11 @@
             "defName": "FONT_ARIAL_28",
             "type": "font",
             "file": "fonts/Arial.ttf"
+        },
+        {
+            "defName": "FONT_ARIAL_12",
+            "type": "font",
+            "file": "fonts/Arial.ttf"
         }
     ],
     "friendlyVersion": "VERSION",
