@@ -41,6 +41,7 @@ PBL_APP_INFO(
 static Window window;
 static GFont font_thin;
 static GFont font_thick;
+static GFont font_thin_s;
 
 typedef struct
 {
@@ -464,10 +465,11 @@ handle_init(
 
 	font_thin = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ARIAL_28));
 	font_thick = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ARIAL_BLACK_30));
+	font_thin_s = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ARIAL_12));
 
 	// Stack top to bottom.  Note that the hour can take up
 	// two rows at midnight.
-	text_layer(&ampm_word, GRect(4, y + 3*h, 144, h+8), font_thin);
+	text_layer(&ampm_word, GRect(4, y + 3*h, 144, h+8), font_thin_s);
 	text_layer(&hour_word, GRect(4, y + 2*h, 144, 2*h+8), font_thick);
 	text_layer(&rel_word, GRect(4, y + 1*h, 144, h+8), font_thin);
 	text_layer(&min_word, GRect(4, y + 0*h, 144, h+8), font_thin);
