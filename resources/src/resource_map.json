@@ -1,9 +1,9 @@
 {
     "media": [
         {
-            "defName": "FONT_ARIAL_BLACK_30",
+            "defName": "FONT_ARIAL_12",
             "type": "font",
-            "file": "fonts/Arial-Black.ttf"
+            "file": "fonts/Arial.ttf"
         },
         {
             "defName": "FONT_ARIAL_28",
@@ -11,9 +11,9 @@
             "file": "fonts/Arial.ttf"
         },
         {
-            "defName": "FONT_ARIAL_12",
+            "defName": "FONT_ARIAL_BLACK_30",
             "type": "font",
-            "file": "fonts/Arial.ttf"
+            "file": "fonts/Arial-Black.ttf"
         }
     ],
     "friendlyVersion": "VERSION",

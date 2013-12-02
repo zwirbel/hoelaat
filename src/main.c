@@ -55,6 +55,7 @@ static word_t min_word;
 static word_t rel_word;
 static word_t hour_word;
 static word_t ampm_word;
+static word_t kpi_word;
 
 
 static const char *nums[] = {
@@ -355,6 +356,7 @@ nederlands_format(
 	if (min ==60)
 		ampm_word.text = "900 LN app";
 	
+	kpi_word.text = "test kpi";
 
 }
 
@@ -383,6 +385,7 @@ handle_tick(
 	int hour = ptm->tm_hour;
 	int min = ptm->tm_min;
 
+	kpi_word.old_text = kpi_word.text;
 	ampm_word.old_text = ampm_word.text;
 	hour_word.old_text = hour_word.text;
 	rel_word.old_text = rel_word.text;
@@ -399,6 +402,7 @@ handle_tick(
 	);
 */
 
+	update_word(&kpi_word);
 	update_word(&ampm_word);
 	update_word(&hour_word);
 	update_word(&rel_word);
@@ -469,6 +473,7 @@ handle_init(
 
 	// Stack top to bottom.  Note that the hour can take up
 	// two rows at midnight.
+	text_layer(&kpi_word, GRect(4, y + 4*h, 144, h+8), font_thin_s);
 	text_layer(&ampm_word, GRect(4, y + 3*h, 144, h+8), font_thin_s);
 	text_layer(&hour_word, GRect(4, y + 2*h, 144, 2*h+8), font_thick);
 	text_layer(&rel_word, GRect(4, y + 1*h, 144, h+8), font_thin);
