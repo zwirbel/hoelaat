@@ -358,19 +358,23 @@ handle_init(
 	int y = 15;
 	int h = 30;
 
-	font_thin = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ARIAL_28));
-	font_thick = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ARIAL_BLACK_30));
-	font_thin_s = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ARIAL_12));
-
+	font_thin_28 = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ARIAL_28));
+	font_thick_30 = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ARIAL_BLACK_30));
+	font_thin_12 = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ARIAL_12));
+	font_thin_18 = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ARIAL_18));
+	font_thin_22 = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ARIAL_22));
+	font_thin_16 = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ARIAL_16));
+	font_thick_18 = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ARIAL_BLACK_18));
+	font_thick_22 = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ARIAL_BLACK_22));
 	// Stack top to bottom.  Note that the hour can take up
 	// two rows at midnight.
-	text_layer(&kpi3_word, GRect(4, y + 4.5*h, 144, h+8), font_thin_s);
-	text_layer(&kpi2_word, GRect(4, y + 4*h, 144, h+8), font_thin_s);
-	text_layer(&kpi1_word, GRect(4, y + 3.5*h, 144, h+8), font_thin_s);
-	text_layer(&ampm_word, GRect(4, y + 3*h, 144, h+8), font_thin_s);
-	text_layer(&hour_word, GRect(4, y + 2*h, 144, 2*h+8), font_thick);
-	text_layer(&rel_word, GRect(4, y + 1*h, 144, h+8), font_thin);
-	text_layer(&min_word, GRect(4, y + 0*h, 144, h+8), font_thin);
+	text_layer(&kpi3_word, GRect(4, y + 4.5*h, 144, h+8), font_thin_18);
+	text_layer(&kpi2_word, GRect(4, y + 4*h, 144, h+8), font_thin_18);
+	text_layer(&kpi1_word, GRect(4, y + 3.5*h, 144, h+8), font_thin_18);
+	text_layer(&ampm_word, GRect(4, y + 3*h, 144, h+8), font_thin_18);
+	text_layer(&hour_word, GRect(4, y + 2*h, 144, 2*h+8), font_thick_18);
+	text_layer(&rel_word, GRect(4, y + 1*h, 144, h+8), font_thin_18);
+	text_layer(&min_word, GRect(4, y + 0*h, 144, h+8), font_thin_18);
 
 }
 
