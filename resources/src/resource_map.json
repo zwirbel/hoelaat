@@ -6,10 +6,35 @@
             "file": "fonts/Arial.ttf"
         },
         {
+            "defName": "FONT_ARIAL_16",
+            "type": "font",
+            "file": "fonts/Arial.ttf"
+        },
+        {
+            "defName": "FONT_ARIAL_18",
+            "type": "font",
+            "file": "fonts/Arial.ttf"
+        },
+        {
+            "defName": "FONT_ARIAL_22",
+            "type": "font",
+            "file": "fonts/Arial.ttf"
+        },
+        {
             "defName": "FONT_ARIAL_28",
             "type": "font",
             "file": "fonts/Arial.ttf"
         },
+        {
+            "defName": "FONT_ARIAL_BLACK_18",
+            "type": "font",
+            "file": "fonts/Arial-Black.ttf"
+        }
+        {
+            "defName": "FONT_ARIAL_BLACK_24",
+            "type": "font",
+            "file": "fonts/Arial-Black.ttf"
+        }
         {
             "defName": "FONT_ARIAL_BLACK_30",
             "type": "font",
