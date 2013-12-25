@@ -82,6 +82,7 @@ static const char *nums[] = {
         "achtzäh",
         "nüünzäh",
         "zwänzg",
+	"einäzwanzg",
 };
 
 static const char *
