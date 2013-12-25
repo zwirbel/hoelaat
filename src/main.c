@@ -391,9 +391,14 @@ handle_deinit(
 {
 	(void) ctx;
 
-	fonts_unload_custom_font(font_thin);
-	fonts_unload_custom_font(font_thick);
-	fonts_unload_custom_font(font_thin_s);
+	fonts_unload_custom_font(font_thin_12);
+	fonts_unload_custom_font(font_thin_16);
+	fonts_unload_custom_font(font_thin_18);
+	fonts_unload_custom_font(font_thin_22);
+	fonts_unload_custom_font(font_thin_28);
+	fonts_unload_custom_font(font_thick_18);
+	fonts_unload_custom_font(font_thick_24);
+	fonts_unload_custom_font(font_thick_30);
 }
 
 
