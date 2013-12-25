@@ -189,64 +189,62 @@ nederlands_format(
 	// but don't say "before midnight"
 	//if (hour == 0 || hour == 12)
 	// {ampm_word.text = "";	} else
-	if (min == 1) {ampm_word.text = "12900 User"; kpi1_word.text = "3020 IT";	kpi2_word.text = "1034 IT Int";	kpi3_word.text = "1986 IT Ext";}
-	else if (min == 2) {ampm_word.text = "60 WAN connections"; kpi1_word.text = "88.75 Kbps/User";}
-	else if (min == 3) {ampm_word.text = "14220 WPs"; kpi1_word.text = "2988 Desktops";	kpi2_word.text = "11232 Laptops";}
-	else if (min == 4) {ampm_word.text = "3155 Servers";kpi1_word.text = "1230 Physical Server";	kpi2_word.text = "1925 Virtual Servers";}
-	else if (min == 5) {ampm_word.text = "3200 TB";kpi1_word.text = "32% data growth";	kpi2_word.text = "1051 TB last 12mths";}
-	else if (min == 6) {ampm_word.text = "6015 Mobildev";  kpi1_word.text = "5051 SIMs";	kpi2_word.text = "2765 iOS Dev ByoD";	kpi3_word.text = "3250 Blackberrys";}
+	if (min == 1) {ampm_word.text = "12900 User"; kpi1_word.text = "3020 IT"; kpi2_word.text = "1034 IT Int"; kpi3_word.text = "1986 IT Ext";}
+	else if (min == 2) {ampm_word.text = "60 WAN connections"; kpi1_word.text = "88.75 Kbps/User"; kpi2_word.text = ""; kpi3_word.text = "";}
+	else if (min == 3) {ampm_word.text = "14220 WPs"; kpi1_word.text = "2988 Desktops"; kpi2_word.text = "11232 Laptops"; kpi3_word.text = "";}
+	else if (min == 4) {ampm_word.text = "3155 Servers";kpi1_word.text = "1230 Physical Server"; kpi2_word.text = "1925 Virtual Servers"; kpi3_word.text = "";}
+	else if (min == 5) {ampm_word.text = "3200 TB";kpi1_word.text = "32% data growth"; kpi2_word.text = "1051 TB last 12mths"; kpi3_word.text = "";}
+	else if (min == 6) {ampm_word.text = "6015 Mobildev";  kpi1_word.text = "5051 SIMs"; kpi2_word.text = "2765 iOS Dev ByoD"; kpi3_word.text = "3250 Blackberrys";}
 	else if (min == 7) {ampm_word.text = "3370 Appl";  kpi1_word.text = "959 Biz / 900 LN"; kpi2_word.text = "1254 EndUsing"; kpi3_word.text = "257 InfraApp";}
-	else if (min == 8) {ampm_word.text = "12900 User"; kpi1_word.text = "3020 IT";	kpi2_word.text = "1034 IT Int";	kpi3_word.text = "1986 IT Ext";}
-	else if (min == 9) {ampm_word.text = "60 WAN connections"; kpi1_word.text = "88.75 Kbps/User";}
-	else if (min == 10) {ampm_word.text = "14220 WPs"; kpi1_word.text = "2988 Desktops";	kpi2_word.text = "11232 Laptops";}
-	else if (min == 11) {ampm_word.text = "3155 Servers";kpi1_word.text = "1230 Physical Server";	kpi2_word.text = "1925 Virtual Servers";}
-	else if (min == 12) {ampm_word.text = "3200 TB";kpi1_word.text = "32% data growth";	kpi2_word.text = "1051 TB last 12mths";}
+	else if (min == 8) {ampm_word.text = "12900 User"; kpi1_word.text = "3020 IT"; kpi2_word.text = "1034 IT Int"; kpi3_word.text = "1986 IT Ext";}
+	else if (min == 9) {ampm_word.text = "60 WAN connections"; kpi1_word.text = "88.75 Kbps/User"; kpi2_word.text = ""; kpi3_word.text = "";}
+	else if (min == 10) {ampm_word.text = "14220 WPs"; kpi1_word.text = "2988 Desktops"; kpi2_word.text = "11232 Laptops"; kpi3_word.text = "";}
+	else if (min == 11) {ampm_word.text = "3155 Servers";kpi1_word.text = "1230 Physical Server";	kpi2_word.text = "1925 Virtual Servers"; kpi3_word.text = "";}
+	else if (min == 12) {ampm_word.text = "3200 TB";kpi1_word.text = "32% data growth";	kpi2_word.text = "1051 TB last 12mths"; kpi3_word.text = "";}
 	else if (min == 13) {ampm_word.text = "6015 Mobildev";  kpi1_word.text = "5051 SIMs";	kpi2_word.text = "2765 iOS Dev ByoD";	kpi3_word.text = "3250 Blackberrys";}
 	else if (min == 14) {ampm_word.text = "3370 Appl";  kpi1_word.text = "959 Biz / 900 LN"; kpi2_word.text = "1254 EndUsing"; kpi3_word.text = "257 InfraApp";}
 	else if (min == 15) {ampm_word.text = "12900 User"; kpi1_word.text = "3020 IT";	kpi2_word.text = "1034 IT Int";	kpi3_word.text = "1986 IT Ext";}
-	else if (min == 16) {ampm_word.text = "60 WAN connections"; kpi1_word.text = "88.75 Kbps/User";}
-	else if (min == 17) {ampm_word.text = "14220 WPs"; kpi1_word.text = "2988 Desktops";	kpi2_word.text = "11232 Laptops";}
+	else if (min == 16) {ampm_word.text = "60 WAN connections"; kpi1_word.text = "88.75 Kbps/User"; kpi2_word.text = ""; kpi3_word.text = "";}
+	else if (min == 17) {ampm_word.text = "14220 WPs"; kpi1_word.text = "2988 Desktops";	kpi2_word.text = "11232 Laptops"; kpi3_word.text = "";}
 	else if (min == 18) {ampm_word.text = "3155 Servers";kpi1_word.text = "1230 Physical Server";	kpi2_word.text = "1925 Virtual Servers";}
-	else if (min == 19) {ampm_word.text = "3200 TB";kpi1_word.text = "32% data growth";	kpi2_word.text = "1051 TB last 12mths";}
+	else if (min == 19) {ampm_word.text = "3200 TB";kpi1_word.text = "32% data growth";	kpi2_word.text = "1051 TB last 12mths"; kpi3_word.text = "";}
 	else if (min == 20) {ampm_word.text = "6015 Mobildev";  kpi1_word.text = "5051 SIMs";	kpi2_word.text = "2765 iOS Dev ByoD";	kpi3_word.text = "3250 Blackberrys";}
 	else if (min == 21) {ampm_word.text = "3370 Appl";  kpi1_word.text = "959 Biz / 900 LN"; kpi2_word.text = "1254 EndUsing"; kpi3_word.text = "257 InfraApp";}
 	else if (min == 22) {ampm_word.text = "12900 User"; kpi1_word.text = "3020 IT";	kpi2_word.text = "1034 IT Int";	kpi3_word.text = "1986 IT Ext";}
-	else if (min == 23) {ampm_word.text = "60 WAN connections"; kpi1_word.text = "88.75 Kbps/User";}
-	else if (min == 24) {ampm_word.text = "14220 WPs"; kpi1_word.text = "2988 Desktops";	kpi2_word.text = "11232 Laptops";}
-	else if (min == 25) {ampm_word.text = "3155 Servers";kpi1_word.text = "1230 Physical Server";	kpi2_word.text = "1925 Virtual Servers";}
-	else if (min == 26) {ampm_word.text = "3200 TB";kpi1_word.text = "32% data growth";	kpi2_word.text = "1051 TB last 12mths";}
+	else if (min == 23) {ampm_word.text = "60 WAN connections"; kpi1_word.text = "88.75 Kbps/User"; kpi2_word.text = ""; kpi3_word.text = "";}
+	else if (min == 24) {ampm_word.text = "14220 WPs"; kpi1_word.text = "2988 Desktops";	kpi2_word.text = "11232 Laptops"; kpi3_word.text = "";}
+	else if (min == 25) {ampm_word.text = "3155 Servers";kpi1_word.text = "1230 Physical Server";	kpi2_word.text = "1925 Virtual Servers"; kpi3_word.text = "";}
+	else if (min == 26) {ampm_word.text = "3200 TB";kpi1_word.text = "32% data growth";	kpi2_word.text = "1051 TB last 12mths"; kpi3_word.text = "";}
 	else if (min == 27) {ampm_word.text = "6015 Mobildev";  kpi1_word.text = "5051 SIMs";	kpi2_word.text = "2765 iOS Dev ByoD";	kpi3_word.text = "3250 Blackberrys";}
 	else if (min == 28) {ampm_word.text = "3370 Appl";  kpi1_word.text = "959 Biz / 900 LN"; kpi2_word.text = "1254 EndUsing"; kpi3_word.text = "257 InfraApp";}
-	//biz
 	else if (min == 29) {ampm_word.text = "5 OSs";  kpi1_word.text = "AIX / Linux"; kpi2_word.text = "ESX / Windows"; kpi3_word.text = "Solaris";}
 	else if (min == 30) {ampm_word.text = "IT Strategy";  kpi1_word.text = "Making better use of Information"; kpi2_word.text = "Building Global Operating Platforms"; kpi3_word.text = "Improving Services and Performance";}
-		//it
 	else if (min == 31) {ampm_word.text = "12900 User"; kpi1_word.text = "3020 IT";	kpi2_word.text = "1034 IT Int";	kpi3_word.text = "1986 IT Ext";}
-	else if (min == 32) {ampm_word.text = "60 WAN connections"; kpi1_word.text = "88.75 Kbps/User";}
-	else if (min == 33) {ampm_word.text = "14220 WPs"; kpi1_word.text = "2988 Desktops";	kpi2_word.text = "11232 Laptops";}
-	else if (min == 34) {ampm_word.text = "3155 Servers";kpi1_word.text = "1230 Physical Server";	kpi2_word.text = "1925 Virtual Servers";}
-	else if (min == 35) {ampm_word.text = "3200 TB";kpi1_word.text = "32% data growth";	kpi2_word.text = "1051 TB last 12mths";}
+	else if (min == 32) {ampm_word.text = "60 WAN connections"; kpi1_word.text = "88.75 Kbps/User"; kpi2_word.text = ""; kpi3_word.text = "";}
+	else if (min == 33) {ampm_word.text = "14220 WPs"; kpi1_word.text = "2988 Desktops";	kpi2_word.text = "11232 Laptops"; kpi3_word.text = "";}
+	else if (min == 34) {ampm_word.text = "3155 Servers";kpi1_word.text = "1230 Physical Server";	kpi2_word.text = "1925 Virtual Servers"; kpi3_word.text = "";}
+	else if (min == 35) {ampm_word.text = "3200 TB";kpi1_word.text = "32% data growth";	kpi2_word.text = "1051 TB last 12mths"; kpi3_word.text = "";}
 	else if (min == 36) {ampm_word.text = "6015 Mobildev";  kpi1_word.text = "5051 SIMs";	kpi2_word.text = "2765 iOS Dev ByoD";	kpi3_word.text = "3250 Blackberrys";}
 	else if (min == 37) {ampm_word.text = "3370 Appl";  kpi1_word.text = "959 Biz / 900 LN"; kpi2_word.text = "1254 EndUsing"; kpi3_word.text = "257 InfraApp";}
 	else if (min == 38) {ampm_word.text = "12900 User"; kpi1_word.text = "3020 IT";	kpi2_word.text = "1034 IT Int";	kpi3_word.text = "1986 IT Ext";}
-	else if (min == 39) {ampm_word.text = "60 WAN connections"; kpi1_word.text = "88.75 Kbps/User";}
-	else if (min == 40) {ampm_word.text = "14220 WPs"; kpi1_word.text = "2988 Desktops";	kpi2_word.text = "11232 Laptops";}
-	else if (min == 41) {ampm_word.text = "3155 Servers";kpi1_word.text = "1230 Physical Server";	kpi2_word.text = "1925 Virtual Servers";}
-	else if (min == 42) {ampm_word.text = "3200 TB";kpi1_word.text = "32% data growth";	kpi2_word.text = "1051 TB last 12mths";}
+	else if (min == 39) {ampm_word.text = "60 WAN connections"; kpi1_word.text = "88.75 Kbps/User"; kpi2_word.text = ""; kpi3_word.text = "";}
+	else if (min == 40) {ampm_word.text = "14220 WPs"; kpi1_word.text = "2988 Desktops";	kpi2_word.text = "11232 Laptops"; kpi3_word.text = "";}
+	else if (min == 41) {ampm_word.text = "3155 Servers";kpi1_word.text = "1230 Physical Server";	kpi2_word.text = "1925 Virtual Servers"; kpi3_word.text = "";}
+	else if (min == 42) {ampm_word.text = "3200 TB";kpi1_word.text = "32% data growth";	kpi2_word.text = "1051 TB last 12mths"; kpi3_word.text = "";}
 	else if (min == 43) {ampm_word.text = "6015 Mobildev";  kpi1_word.text = "5051 SIMs";	kpi2_word.text = "2765 iOS Dev ByoD";	kpi3_word.text = "3250 Blackberrys";}
 	else if (min == 44) {ampm_word.text = "3370 Appl";  kpi1_word.text = "959 Biz / 900 LN"; kpi2_word.text = "1254 EndUsing"; kpi3_word.text = "257 InfraApp";}
 	else if (min == 45) {ampm_word.text = "12900 User"; kpi1_word.text = "3020 IT";	kpi2_word.text = "1034 IT Int";	kpi3_word.text = "1986 IT Ext";}
-	else if (min == 46) {ampm_word.text = "60 WAN connections"; kpi1_word.text = "88.75 Kbps/User";}
-	else if (min == 47) {ampm_word.text = "14220 WPs"; kpi1_word.text = "2988 Desktops";	kpi2_word.text = "11232 Laptops";}
-	else if (min == 48) {ampm_word.text = "3155 Servers";kpi1_word.text = "1230 Physical Server";	kpi2_word.text = "1925 Virtual Servers";}
-	else if (min == 49) {ampm_word.text = "3200 TB";kpi1_word.text = "32% data growth";	kpi2_word.text = "1051 TB last 12mths";}
+	else if (min == 46) {ampm_word.text = "60 WAN connections"; kpi1_word.text = "88.75 Kbps/User"; kpi2_word.text = ""; kpi3_word.text = "";}
+	else if (min == 47) {ampm_word.text = "14220 WPs"; kpi1_word.text = "2988 Desktops";	kpi2_word.text = "11232 Laptops"; kpi3_word.text = "";}
+	else if (min == 48) {ampm_word.text = "3155 Servers";kpi1_word.text = "1230 Physical Server";	kpi2_word.text = "1925 Virtual Servers"; kpi3_word.text = "";}
+	else if (min == 49) {ampm_word.text = "3200 TB";kpi1_word.text = "32% data growth";	kpi2_word.text = "1051 TB last 12mths"; kpi3_word.text = "";}
 	else if (min == 50) {ampm_word.text = "6015 Mobildev";  kpi1_word.text = "5051 SIMs";	kpi2_word.text = "2765 iOS Dev ByoD";	kpi3_word.text = "3250 Blackberrys";}
 	else if (min == 51) {ampm_word.text = "3370 Appl";  kpi1_word.text = "959 Biz / 900 LN"; kpi2_word.text = "1254 EndUsing"; kpi3_word.text = "257 InfraApp";}
 	else if (min == 52) {ampm_word.text = "12900 User"; kpi1_word.text = "3020 IT";	kpi2_word.text = "1034 IT Int";	kpi3_word.text = "1986 IT Ext";}
-	else if (min == 53) {ampm_word.text = "60 WAN connections"; kpi1_word.text = "88.75 Kbps/User";}
-	else if (min == 54) {ampm_word.text = "14220 WPs"; kpi1_word.text = "2988 Desktops";	kpi2_word.text = "11232 Laptops";}
-	else if (min == 55) {ampm_word.text = "3155 Servers";kpi1_word.text = "1230 Physical Server";	kpi2_word.text = "1925 Virtual Servers";}
-	else if (min == 56) {ampm_word.text = "3200 TB";kpi1_word.text = "32% data growth";	kpi2_word.text = "1051 TB last 12mths";}
+	else if (min == 53) {ampm_word.text = "60 WAN connections"; kpi1_word.text = "88.75 Kbps/User"; kpi2_word.text = ""; kpi3_word.text = "";}
+	else if (min == 54) {ampm_word.text = "14220 WPs"; kpi1_word.text = "2988 Desktops";	kpi2_word.text = "11232 Laptops"; kpi3_word.text = "";}
+	else if (min == 55) {ampm_word.text = "3155 Servers";kpi1_word.text = "1230 Physical Server";	kpi2_word.text = "1925 Virtual Servers"; kpi3_word.text = "";}
+	else if (min == 56) {ampm_word.text = "3200 TB";kpi1_word.text = "32% data growth";	kpi2_word.text = "1051 TB last 12mths"; kpi3_word.text = "";}
 	else if (min == 57) {ampm_word.text = "6015 Mobildev";  kpi1_word.text = "5051 SIMs";	kpi2_word.text = "2765 iOS Dev ByoD";	kpi3_word.text = "3250 Blackberrys";}
 	else if (min == 58) {ampm_word.text = "3370 Appl";  kpi1_word.text = "959 Biz / 900 LN"; kpi2_word.text = "1254 EndUsing"; kpi3_word.text = "257 InfraApp";}
 	//if (min <60) {kpi1_word.text = "test kpi1";	kpi2_word.text = "test kpi2";	kpi3_word.text = "test kpi3";}
