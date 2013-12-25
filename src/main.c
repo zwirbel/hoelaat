@@ -8,7 +8,7 @@
  * HOUR (in bold)
  * an morgä /  am nami
  *
- * \todo: When any line changes, it is pushed to the side
+ * \todo: When any line changes, it is pushed to the side 
  *
  * een uur
  * een over een
